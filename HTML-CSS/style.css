@@ -1,0 +1,109 @@
+.header{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.header_image{
+    /* border-radius: 100%; */
+    width: 50px;
+    height: 50px;
+    /* object-fit: fill; */
+}
+.header_text{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.svg{
+    width: 30px;
+    height: 30px;
+    background-color: whitesmoke;
+    padding: 4px;
+}
+.nav{
+    background-color: whitesmoke;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    /* margin-right: 20px; */
+}
+.li{
+    margin-right: 20px;
+    /* background-color: red; */
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+.main_body_div{
+    display: flex;
+}
+.aside{
+    background-color: whitesmoke;
+    width: 20%;
+}
+.main{
+    width: 80%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p1{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p2{
+    text-align: center;
+    font-family: fantasy;
+}
+.footer{
+    background-color: whitesmoke;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.cc{
+    font-size: smaller;
+    text-align: center;
+}
+.h3{
+    text-align: center;
+    text-decoration-line: underline;
+    color: blueviolet;
+}
+.emialbtn{
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .phonebtn{
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+} */
+.phone_svg{
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+}
+.ul2{
+    list-style: none;
+}
