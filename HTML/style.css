@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+}
+button{
+    padding: 15px, 20px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    font-size: 16;
+    background-color: blanchedalmond;
+}
+td{
+    font-size: 12;
+    background-color: yellow;
+}
