@@ -1,0 +1,110 @@
+
+.body{
+    background-color: rgb(131, 248, 248);
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    background-color: blueviolet;
+    width: 75%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    background-color: whitesmoke;
+    width: 30%;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.card2{
+    background-color: whitesmoke;
+    width: 30%;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.card3{
+    background-color: whitesmoke;
+    width: 30%;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.programmer{
+    /* width: 50%;
+    height: 200; */
+    object-fit: cover;
+    border-radius: 22px;
+}
+.food{
+    object-fit: cover;
+    border-radius: 20px;
+}
+.car{
+    object-fit: cover;
+    border-radius: 20px;
+}
+.category_div{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.category{
+    padding: 6px;
+    color: white;
+    background-color: rgb(31, 117, 117);
+    border-radius: 50px 50px 50px 50px;
+}
+.heading_div{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.heading{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.details_div{
+    /* margin-top: 6px; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.details{
+    font-size: medium;
+    /* font-weight: bold; */
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.write{
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.writer_img{
+    border-radius: 100%;
+}
+.write_details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6px;
+}
+.write_name{
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.date{
+    font-size: small;
+    color: grey;
+    /* font-weight: bold; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.write_div{
+    display: flex;
+}
