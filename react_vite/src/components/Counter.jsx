@@ -17,7 +17,7 @@ function Counter() {
 
     return (
         <div style={{backgroundColor:'#aed6f1', padding:'20px', borderRadius:'14px'}}>
-            <h1 style={{ color: 'black' }}>Counter</h1>
+            <h1 style={{ color: 'black' }}>Number Counter</h1>
             <h1 style={{ color: 'green' }}>{counter}</h1>
             <div style={{display:'flex', flexDirection:'column', gap:'10px'}}> 
                 <button
