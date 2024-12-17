@@ -14,6 +14,10 @@
 
 ![screencapture-localhost-5173-news-2024-12-13-17_14_01](https://github.com/user-attachments/assets/b71ac36e-f1b0-4a10-8ddc-b6dfd86f9282)
 
+### Portfolio
+
+![screencapture-localhost-5173-2024-12-17-13_30_03](https://github.com/user-attachments/assets/8113057f-b5de-4d06-861f-552def2a6bef)
+
 ## Authors
 
 - [Haider-Mukhtar](https://github.com/Haider-Mukhtar)
