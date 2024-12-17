@@ -21,14 +21,14 @@ function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <a href='#' className='hover:text-blue-700 hover:underline hover:underline-offset-2'>
-                            Projects
-                        </a>
+                        <Link to='/myworks' className='hover:text-blue-700 hover:underline hover:underline-offset-2'>
+                            My Works
+                        </Link>
                     </li>
                     <li>
-                        <a href='#' className='hover:text-blue-700 hover:underline hover:underline-offset-2'>
+                        <Link to='/contact' className='hover:text-blue-700 hover:underline hover:underline-offset-2'>
                             Contact
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>

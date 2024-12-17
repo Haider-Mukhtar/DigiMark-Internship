@@ -7,6 +7,7 @@ import sass from './workAssets/sass.svg'
 import js from './workAssets/js.svg'
 import react from './workAssets/react.svg'
 import reactnative from './workAssets/react.svg'
+import { TypeAnimation } from 'react-type-animation'
 
 const skills = [
     {
@@ -64,6 +65,32 @@ function Skills() {
             <div className='w-4/5 2xl:px-8'>
                 <div className='text-5xl sm:text-5xl font-semibold font-serif text-center'>
                     My Works Skills
+                </div>
+                <div className='text-3xl font-serif font-semibold mt-2 text-center text-blue-600'>
+                    <TypeAnimation
+                        sequence={[
+                            // Same substring at the start will only be typed out once, initially
+                            'HTML',
+                            1000, // wait 1s before replacing "Mice" with "Hamsters"
+                            'CSS',
+                            1000,
+                            'Bootstrap',
+                            1000,
+                            'Tailwind CSS',
+                            1000,
+                            'SASS',
+                            1000,
+                            'JavaScript',
+                            1000,
+                            'React JS',
+                            1000,
+                            'React Native',
+                            1000,
+                        ]}
+                        wrapper="span"
+                        speed={50}
+                        repeat={Infinity}
+                    />
                 </div>
                 <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 my-10 gap-4'>
                     {

@@ -1,18 +1,18 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
-import Education from './Education'
-import Experience from './Experience'
 import Footer from '../Footer/Footer'
+import Skills from './Skills'
+import GetInTouch from '../Contact/GetInTouch'
 
-function About() {
+function MyWorks() {
   return (
     <>
         <Navbar />
-        <Education />
-        <Experience />
+        <Skills />
+        <GetInTouch />
         <Footer />
     </>
   )
 }
 
-export default About
+export default MyWorks
